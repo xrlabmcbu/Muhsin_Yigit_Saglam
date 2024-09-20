@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topdown Tower Defence</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            margin: 0;
+            overflow-y: auto;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 20px 0;
+            width: 100%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #003d80;
+        }
+        .description {
+            font-style: italic;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Topdown Tower Defence</h1>
+        <p>Bu, Unreal Engine kullanarak geliştirdiğim Topdown Tower Defence projesinin detaylarıdır.</p>
+        
+        <img src="Topdown1.png" alt="Topdown Tower Defence Image 1">
+        <p class="description">Oyun alanının genel görünümü. Bu görüntü, oyun alanının genişliğini ve yerleşimini göstermektedir.</p>
+        
+        <img src="Topdown2.png" alt="Topdown Tower Defence Image 2">
+        <p class="description">Kameranın Pozisyonu Karakterin Görünümü (Viewport).</p>
+
+        <img src="Topdown3.png" alt="Topdown Tower Defence Image 3">
+        <p class="description">Karakterin Mouse Cursor'ı takip etmesini sağlar</p>
+
+        <img src="Topdown7.png" alt="Topdown Tower Defence Image 3">
+        <img src="Topdown8.png" alt="Topdown Tower Defence Image 3">
+        <p class="description">Karakterin Mouse Cursor'ı takip etmesini sağlayan fonksiyon</p>
+        
+        <img src="Topdown4.png" alt="Topdown Tower Defence Image 4">
+        <p class="description"> Oyun karakterinin rotasyonunu ayarlayan Blueprint. Bu görüntü, karakterin hareket ve dönüşünü kontrol eden kodları göstermektedir.</p>
+
+        <img src="Topdown5.png" alt="Topdown Tower Defence Image 5">
+        <p class="description"> Karakterin hareket girişlerini yöneten Blueprint. Bu görüntü, karakterin ileri, geri, sağa ve sola hareketini kontrol eden kodları göstermektedir.</p>
+
+        <img src="Topdown9.png" alt="Topdown Tower Defence Image 5">
+        <p class="description"> Karakterin Zıplama Fonksiyonunu yerine getiren Blueprint. Zıplama Tuşuna Basıldığında zıplamayı sağlar</p>
+
+        <img src="Topdown6.png" alt="Topdown Tower Defence Image 6">
+        <p class="description">Karakterin hasar almasını yöneten Blueprint. Bu görüntü, karakterin aldığı hasarı ve sağlığını kontrol eden kodları göstermektedir. Eğer Can Seviyesi sıfıra gelirse Ölüm eventini çağırır. </p>
+         
+        <img src="Topdown10.png" alt="Topdown Tower Defence Image 6">
+        <p class="description">Karakterin hareketini durdurarak ölüm animasyonunu çağırır. Animasyon Tamamlandıktan sonra ise Respawn Eventini Çağırır</p>
+
+        <img src="Topdown11.png" alt="Topdown Tower Defence Image 6">
+        <img src="Topdown12.png" alt="Topdown Tower Defence Image 6">
+        <p class="description">Karakteri oyunun başladığı yere ışınlar ve Karakterin hareket etmesine izin verir. Canlandırma Eventini Çağırır.</p>
+
+        <img src="Topdown13.png" alt="Topdown Tower Defence Image 6">
+        <p class="description">Sol mouse tuşuna basılı tuttuğumuzda Karakterin baktığı yöne doğru ilerleyen ışınlar spawnlar.</p>
+
+        <img src="Topdown14.png" alt="Topdown Tower Defence Image 6">
+        <p class="description">Karakterin kontrol şeması.</p>
+        
+        <img src="Topdown15.png" alt="Topdown Tower Defence Image 6">
+        <p class="description"></p>
+
+        <img src="Topdown16.png" alt="Topdown Tower Defence Image 6">
+        <p class="description">Düşman Spawnerı</p>
+
+        <img src="Topdown19.png" alt="Topdown Tower Defence Image 6">
+        <p class="description">Her Tur Çağırımasını istediğimiz düşmanların listesi</p>
+
+        <img src="Topdown20.png" alt="Topdown Tower Defence Image 6">
+        <p class="description">Düşman listesini alarak Düşman havuzunun oluşturulması</p>
+
+        <img src="Topdown21.png" alt="Topdown Tower Defence Image 6">
+        <p class="description">Düşman sayısı 0'dan aşağı indiğinde tur zaman arasına girmesini sağlayan fonksiyon</p>
+
+        <img src="Topdown22.png" alt="Topdown Tower Defence Image 6">
+        <p class="description">User Interface</p>
+
+        <img src="Topdown17.png" alt="Topdown Tower Defence Image 6">
+        <p class="description"></p>
+        
+        <img src="Topdown18.png" alt="Topdown Tower Defence Image 6">
+        <p class="description">Health UI</p>
+
+        <img src="Topdown24.png" alt="Topdown Tower Defence Image 6">
+        <p class="description">Build Sistemi+</p>
+
+
+        <button onclick="location.href='index.html'">Anasayfaya Dön</button>
+    </div>
+</body>
+</html>
